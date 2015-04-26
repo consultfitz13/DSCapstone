@@ -22,8 +22,7 @@ How the model works
 Testing the model
 ========================================================
 - read in the test files created at the start of the process
-- create a test phrase by carving out a phrase from the line starting at the first word and ending in a randomly chosen word somewhere in the line. That word will be what we are trying to predict
-- run the model with the phrase created above minus the last word
+- submit each line minus the last word in the line to the prediction function
 - compare the prediction to the actual last word
 - aggregate the results
 - the model only got 13.2% of the words correct when run on the test data

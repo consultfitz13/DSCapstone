@@ -789,8 +789,7 @@ hljs.initHighlightingOnLoad();
 <div class="slideContent" >
 <ul>
 <li>read in the test files created at the start of the process</li>
-<li>create a test phrase by carving out a phrase from the line starting at the first word and ending in a randomly chosen word somewhere in the line. That word will be what we are trying to predict</li>
-<li>run the model with the phrase created above minus the last word</li>
+<li>submit each line minus the last word in the line to the prediction function</li>
 <li>compare the prediction to the actual last word</li>
 <li>aggregate the results</li>
 <li>the model only got 13.2% of the words correct when run on the test data</li>
